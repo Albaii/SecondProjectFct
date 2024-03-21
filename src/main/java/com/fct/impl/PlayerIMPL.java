@@ -1,5 +1,8 @@
 package com.fct.impl;
 
-public class PlayerIMPL {
+public interface PlayerIMPL {
 
+	public void attack();
+	public void defense();
+	
 }
